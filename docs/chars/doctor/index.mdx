@@ -1,0 +1,31 @@
+---
+sidebar_position: 9
+---
+
+import CharCard from '@site/src/components/DocsTxt/CharsInfo/NonOrHumanChar.mdx'
+import SignsInfo from '@site/src/components/DocsTxt/SignsInfo'
+
+# 医生
+
+<img src={require('./img.webp').default} width='22%' />
+
+<CharCard />
+
+## 判断人伪
+
+:::warning
+重瞳不为伪！
+:::
+
+:::tip[`双手` 无红疹为人，有红疹为伪]
+
+<SignsInfo
+	god={require('./signs/hands-god.webp').default}
+	bad={require('./signs/hands-bad.webp').default}
+/>
+:::
+
+:::tip[`照片` 心有斑点为人，无斑点为伪]
+
+<SignsInfo god={require('./signs/pic-god.webp').default} bad={require('./signs/pic-bad.webp').default} />
+:::
