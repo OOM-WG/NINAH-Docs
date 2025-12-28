@@ -7,10 +7,10 @@ export default function SignsInfo({god, bad}: {god: string; bad: string}): React
 	return (
 		<Tabs groupId='human-type' queryString>
 			<TabItem value='real' label='人类'>
-				<img src={god} />
+				<img src={god} width='66%' />
 			</TabItem>
 			<TabItem value='not' label='伪人'>
-				<img src={bad} />
+				<img src={bad} width='66%' />
 			</TabItem>
 		</Tabs>
 	)
