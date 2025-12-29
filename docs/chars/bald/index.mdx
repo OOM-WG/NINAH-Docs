@@ -1,13 +1,13 @@
 ---
-sidebar_position: 31
+sidebar_position: 58
 ---
 
 import CharCard from '@site/src/components/DocsTxt/CharsInfo/NonOrHumanChar.mdx'
 import SignsInfo from '@site/src/components/DocsTxt/CharsInfo/SignsInfo'
 
-# 瘾君子
+# 剧院男
 
-外号: 吴京 | Rapper
+外号: 秃头
 
 <img src={require('./char.webp').default} width='33%' />
 
@@ -15,7 +15,7 @@ import SignsInfo from '@site/src/components/DocsTxt/CharsInfo/SignsInfo'
 
 ## 判断人伪
 
-:::tip[`双手` 无泥为人，有泥为伪]
+:::tip[`双手` 伤口正常为人，伤口有红疹为伪]
 
 <SignsInfo
 	god={require('./signs/hands-god.webp').default}
@@ -23,9 +23,7 @@ import SignsInfo from '@site/src/components/DocsTxt/CharsInfo/SignsInfo'
 />
 :::
 
-:::tip[`眼睛` 眼红为人，眼白为伪]
-
-<SignsInfo god={require('./signs/eye-god.webp').default} bad={require('./signs/eye-bad.webp').default} />
+:::tip[`眼睛` 正常为人，快速移动为伪]
 :::
 
 :::tip[`腋下` 无真菌为人，长真菌为伪]
@@ -36,6 +34,7 @@ import SignsInfo from '@site/src/components/DocsTxt/CharsInfo/SignsInfo'
 />
 :::
 
-## 个人剧情
+:::tip[`照片` 多重影为人，分身为伪]
 
-可以看其抽烟抽得烟雾缭绕
+<SignsInfo god={require('./signs/pic-god.webp').default} bad={require('./signs/pic-bad.webp').default} />
+:::
