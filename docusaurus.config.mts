@@ -8,7 +8,10 @@ export default {
 	tagline: '《寻找伪人》游戏攻略文档',
 	favicon: 'img/logo.ico',
 
-	future: {v4: true},
+	future: {
+		v4: true,
+		experimental_faster: true
+	},
 
 	url: 'https://non-human.game.oom-wg.dev',
 	baseUrl: '/',
