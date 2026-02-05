@@ -1,5 +1,7 @@
 * text=auto
-** linguist-documentation
+
+*.config.*js linguist-vendored
+*.config.*ts linguist-vendored
 
 *.md text eol=lf linguist-documentation
 *.mkd text eol=lf linguist-documentation
@@ -16,3 +18,5 @@
 *.cmd text eol=crlf
 *.ps1 text eol=crlf
 *.vbs text eol=crlf
+
+src/** linguist-documentation=false

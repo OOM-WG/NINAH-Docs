@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/emerald.css';
+@import 'fumadocs-ui/css/preset.css';
+@import 'fumadocs-openapi/css/preset.css';
+
+@layer base {
+	footer a {
+		@apply text-fd-primary underline underline-offset-4 decoration-1 decoration-fd-primary/44 hover:decoration-fd-primary transition-colors;
+	}
+}
+
+.force-show .\@max-xl\:hidden {
+	display: block !important;
+}
