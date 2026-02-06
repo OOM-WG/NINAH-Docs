@@ -1020,7 +1020,7 @@ export const source = loader(
 			if (!icon) return
 			try {
 				const src = require(`@/assets/chars/${icon}/icon.webp`).default
-				return <Image key={icon} src={src} alt={icon} width={32} height={32} />
+				return <Image key={icon} src={src} alt={icon} width={32} height={32} priority />
 			} catch {
 				return icon
 			}
