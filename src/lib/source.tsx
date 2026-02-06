@@ -67,6 +67,10 @@ export const docsConfig = {
 				title: '友链',
 				items: [
 					{
+						label: '广告',
+						href: 'https://ja7.top/ad'
+					},
+					{
 						label: '回忆溢出工作组',
 						href: 'https://oom-wg.dev'
 					}
