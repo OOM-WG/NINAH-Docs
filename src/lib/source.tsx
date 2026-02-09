@@ -2,6 +2,7 @@ import {loader, multiple} from 'fumadocs-core/source'
 import {lucideIconsPlugin} from 'fumadocs-core/source/lucide-icons'
 import {docs} from 'fumadocs-mdx:collections/server'
 import {createOpenAPI, openapiPlugin, openapiSource} from 'fumadocs-openapi/server'
+import {GithubInfo} from 'fumadocs-ui/components/github-info'
 import type {BaseLayoutProps} from 'fumadocs-ui/layouts/shared'
 import type {Author} from 'next/dist/lib/metadata/types/metadata-types'
 import Image from 'next/image'
@@ -117,7 +118,7 @@ export const docsConfig = {
 	},
 	git: {
 		user: 'OOM-WG',
-		repo: 'NonHumanGame-Docs',
+		repo: 'NINAH-Docs',
 		branch: 'shiror.ren'
 	} satisfies {
 		user: string
@@ -149,6 +150,12 @@ export const docsOptions = {
 			</div>
 		)
 	},
+	links: [
+		{
+			type: 'custom' as const,
+			children: <GithubInfo owner={docsConfig.git.user} repo={docsConfig.git.repo} />
+		}
+	],
 	githubUrl: `https://github.com/${docsConfig.git.user}/${docsConfig.git.repo}`,
 	themeSwitch: {enabled: false}
 } satisfies BaseLayoutProps as BaseLayoutProps
