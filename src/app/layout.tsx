@@ -4,7 +4,6 @@ import {type Metadata} from 'next'
 import {Ubuntu} from 'next/font/google'
 
 import {docsConfig, docsOptions, source} from '@/lib/source'
-import Clarity from '@/widgets/clarity'
 import SearchDialog from '@/widgets/ui/search'
 
 import './global.css'
@@ -16,31 +15,10 @@ export default ({children}: LayoutProps<'/'>) => (
 		<head>
 			{process.env.NODE_ENV === 'production' && (
 				<script
-					dangerouslySetInnerHTML={{
-						__html: `(${function () {
-							if (['127.0.0.1', 'localhost'].includes(window.location.hostname)) return
-							function onerror() {
-								console.error(
-									'%c ERROR!!! ',
-									'color: white; background: red; font-size: 88px; font-weight: bold; padding: 22px;'
-								)
-							}
-							;(function (script) {
-								script.src = 'https://static.cloudflareinsights.com/beacon.min.js'
-								script.defer = true
-								script.setAttribute(
-									'data-cf-beacon',
-									`{"token": "4c0528b2bbb3439283bc54085742cabe"}`
-								)
-								script.onerror = onerror
-								document.head.appendChild(script)
-							})(document.createElement('script'))
-							// Cloudflare Web Analytics: https://www.cloudflare.com/web-analytics/
-						}})()`
-					}}
+					defer
+					src='https://☁️.ja7.top/🍥.js?ms=v4dgsvjzac&cf=4c0528b2bbb3439283bc54085742cabe'
 				/>
 			)}
-			<Clarity />
 		</head>
 		<body className='flex flex-col min-h-screen'>
 			<RootProvider
