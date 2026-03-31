@@ -1,13 +1,5 @@
 <Callout
-	type={
-		props.type === 'human'
-			? 'success'
-			: props.type === 'visitor'
-				? 'warn'
-				: props.type === 'random'
-					? 'idea'
-					: undefined
-	}
+	type={props.type === 'human' ? 'success' : props.type === 'visitor' ? 'warn' : props.type === 'random' ? 'idea' : undefined}
 	title={
 		props.type === 'mechanism' ? (
 			'该人物为机制角色，不会进家门哦~'

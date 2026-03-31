@@ -16,9 +16,7 @@ description: 游戏《寻找伪人》的人物图鉴
 
 </Callout>
 
-<Callout type='idea'>
-	每个住客均有自己的**个人剧情**（部分是**结局**），并且在夜间会发出一些声音？
-</Callout>
+<Callout type='idea'>每个住客均有自己的**个人剧情**（部分是**结局**），并且在夜间会发出一些声音？</Callout>
 
 ---
 
@@ -31,11 +29,7 @@ import {charsConfig, source} from '@/lib/source'
 		(info => (
 			<Card
 				key={key}
-				icon={
-					getPageTreePeers(source.getPageTree(), '/characters').find(
-						peer => peer.url === '/characters/' + key
-					)?.icon
-				}
+				icon={getPageTreePeers(source.getPageTree(), '/characters').find(peer => peer.url === '/characters/' + key)?.icon}
 				title={info.summary}
 				description={info.parameters.find(item => item.name === 'aka')?.example}
 				href={key.toLowerCase()}

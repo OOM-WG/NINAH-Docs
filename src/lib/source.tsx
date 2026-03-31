@@ -91,17 +91,11 @@ export const docsConfig = {
 				，版权所有，保留一切权利。
 				<br />
 				本网页使用 <i>Clarity</i>、<i>Cloudflare Web Analytics</i> 监控流量，详见{' '}
-				<Link
-					href='https://clarity.microsoft.com/terms'
-					target='_blank'
-					rel='noopener noreferrer'>
+				<Link href='https://clarity.microsoft.com/terms' target='_blank' rel='noopener noreferrer'>
 					Clarity 使用条款
 				</Link>
 				、
-				<Link
-					href='https://www.cloudflare.com/privacypolicy/'
-					target='_blank'
-					rel='noopener noreferrer'>
+				<Link href='https://www.cloudflare.com/privacypolicy/' target='_blank' rel='noopener noreferrer'>
 					Cloudflare Web Analytics
 				</Link>
 			</span>
@@ -137,15 +131,7 @@ export const docsOptions = {
 	nav: {
 		title: (
 			<div className='flex items-center gap-2'>
-				<Image
-					alt='Logo'
-					src='/icon'
-					width={32}
-					height={32}
-					className='rounded-md'
-					priority
-					unoptimized
-				/>
+				<Image alt='Logo' src='/icon' width={32} height={32} className='rounded-md' priority unoptimized />
 				<span className='font-semibold'>{docsConfig.title}</span>
 			</div>
 		)
@@ -1006,8 +992,7 @@ export const charsConfig = (cfg => createOpenAPI({input: () => ({characters: def
 
 const charsSource = (src => (
 	(src.files = src.files.map(file => {
-		if (file.type === 'page')
-			file.path = file.path.replace(/[\\\/](get|post|put|delete|patch|options|head)\.mdx$/, '.mdx')
+		if (file.type === 'page') file.path = file.path.replace(/[\\\/](get|post|put|delete|patch|options|head)\.mdx$/, '.mdx')
 		file.data.icon = path.parse(file.path).name
 		return file
 	})),
