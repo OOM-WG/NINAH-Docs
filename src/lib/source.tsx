@@ -138,7 +138,7 @@ export const docsOptions = {
 	},
 	links: [
 		{
-			type: 'custom' as const,
+			type: 'custom',
 			children: <GithubInfo owner={docsConfig.git.user} repo={docsConfig.git.repo} />
 		}
 	],
