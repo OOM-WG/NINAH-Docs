@@ -15,14 +15,14 @@ description: 游戏《寻找伪人》的游戏机制
 
 ---
 
-import {getPageTreePeers} from 'fumadocs-core/page-tree'
+import { getPageTreePeers } from 'fumadocs-core/page-tree'
 
-import {source} from '@/lib/source'
+import { source } from '@/lib/source'
 
 <Cards>
-	{getPageTreePeers(source.getPageTree(), '/mechanics').map(peer => (
-		<Card key={peer.url} title={peer.name} href={peer.url}>
-			{peer.description}
-		</Card>
-	))}
+  {getPageTreePeers(source.getPageTree(), '/mechanics').map(peer => (
+    <Card key={peer.url} title={peer.name} href={peer.url}>
+      {peer.description}
+    </Card>
+  ))}
 </Cards>

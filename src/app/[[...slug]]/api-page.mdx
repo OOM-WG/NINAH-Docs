@@ -1,31 +1,31 @@
 <Callout
-	type={props.type === 'human' ? 'success' : props.type === 'visitor' ? 'warn' : props.type === 'random' ? 'idea' : undefined}
-	title={
-		props.type === 'mechanism' ? (
-			'该人物为机制角色，不会进家门哦~'
-		) : props.type === 'human' ? (
-			<>
-				该人物为住客角色，并且是<strong>固定的人类</strong>哦！
-			</>
-		) : props.type === 'visitor' ? (
-			<>
-				该人物为住客角色，并且是<strong>固定的伪人</strong>哦！
-			</>
-		) : props.type === 'random' ? (
-			<>
-				该人物为住客角色，是人类或伪人是<strong>随机</strong>哦！
-			</>
-		) : (
-			'该人物为彩蛋角色，不会进家门哦~'
-		)
-	}>
-	<img src={require(`@/assets/chars/${props.id}/char.webp`).default.src} alt='立绘' width='33%' />
-	{props.info && (
-		<>
-			<br />
-			{props.info}
-		</>
-	)}
+  type={props.type === 'human' ? 'success' : props.type === 'visitor' ? 'warn' : props.type === 'random' ? 'idea' : undefined}
+  title={
+    props.type === 'mechanism' ? (
+      '该人物为机制角色，不会进家门哦~'
+    ) : props.type === 'human' ? (
+      <>
+        该人物为住客角色，并且是<strong>固定的人类</strong>哦！
+      </>
+    ) : props.type === 'visitor' ? (
+      <>
+        该人物为住客角色，并且是<strong>固定的伪人</strong>哦！
+      </>
+    ) : props.type === 'random' ? (
+      <>
+        该人物为住客角色，是人类或伪人是<strong>随机</strong>哦！
+      </>
+    ) : (
+      '该人物为彩蛋角色，不会进家门哦~'
+    )
+  }>
+  <img src={require(`@/assets/chars/${props.id}/char.webp`).default.src} alt='立绘' width='33%' />
+  {props.info && (
+    <>
+      <br />
+      {props.info}
+    </>
+  )}
 </Callout>
 
 {props.signs && <h2>判断人伪</h2>}
@@ -64,7 +64,7 @@ props.signs &&
 /></div>
 }
 
-import {Video} from 'lucide-react'
+import { Video } from 'lucide-react'
 
 {(props.plotVideo || props.plotDesc) && <h2>个人剧情</h2>}
 {props.plotVideo &&
