@@ -1,4 +1,4 @@
-import { loader, multiple } from 'fumadocs-core/source'
+import { loader } from 'fumadocs-core/source'
 import { lucideIconsPlugin } from 'fumadocs-core/source/lucide-icons'
 import { docs } from 'fumadocs-mdx:collections/server'
 import { createOpenAPI, openapiPlugin, openapiSource } from 'fumadocs-openapi/server'
@@ -992,11 +992,10 @@ const charsSource = (src => (
 ))(await openapiSource(charsConfig, { baseDir: 'characters' }))
 
 export const source = loader(
-	multiple({
+	{
 		docs: docs.toFumadocsSource(),
-
-		characters: charsSource!
-	}),
+		characters: charsSource
+	},
 	{
 		baseUrl: '/',
 		plugins: [lucideIconsPlugin(), openapiPlugin()],
