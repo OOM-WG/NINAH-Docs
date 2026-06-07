@@ -1,3 +1,5 @@
+import path from 'path'
+
 import { loader } from 'fumadocs-core/source'
 import { lucideIconsPlugin } from 'fumadocs-core/source/lucide-icons'
 import { docs } from 'fumadocs-mdx:collections/server'
@@ -8,7 +10,6 @@ import type { Author } from 'next/dist/lib/metadata/types/metadata-types'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { OpenAPIV3_1 } from 'openapi-types'
-import path from 'path'
 import { type ReactNode } from 'react'
 
 export const docsConfig = {

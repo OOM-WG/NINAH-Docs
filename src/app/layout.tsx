@@ -17,7 +17,7 @@ export default ({ children }: LayoutProps<'/'>) => (
 				<script defer src='https://☁️.ja7.top/🍥.js?ms=v4dgsvjzac&cf=4c0528b2bbb3439283bc54085742cabe' />
 			)}
 		</head>
-		<body className='flex flex-col min-h-screen'>
+		<body className='flex min-h-screen flex-col'>
 			<RootProvider
 				theme={{ enabled: false }}
 				search={{ SearchDialog }}
