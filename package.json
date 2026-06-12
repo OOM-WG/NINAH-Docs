@@ -2,7 +2,7 @@
 	"name": "ninah-docs",
 	"private": true,
 	"description": "Game guide for No, I'm not a Human",
-	"license": "F2DLPRL",
+	"license": "File-to-Downloader",
 	"author": "ShIroRRen",
 	"type": "module",
 	"scripts": {
