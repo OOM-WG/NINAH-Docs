@@ -25,7 +25,7 @@ import { getPageTreePeers } from 'fumadocs-core/page-tree'
 import { charsConfig, source } from '@/lib/source'
 
 <Cards>
-  {Object.entries((await charsConfig.getSchemas()).characters.dereferenced.paths).map(([key, item]) =>
+  {Object.entries((await charsConfig.getSchemas()).characters.bundled.paths).map(([key, item]) =>
     (info => (
       <Card
         key={key}

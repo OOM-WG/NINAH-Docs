@@ -203,7 +203,7 @@ const defineInfo = (
 	return defineDocs(docsInput)
 }
 
-export const charsConfig = (cfg => createOpenAPI({ input: () => ({ characters: defineInfo(cfg) }) }))({
+export const charsConfig = (cfg => createOpenAPI({ input: { characters: defineInfo(cfg) } }))({
 	neighbor: {
 		name: '邻居',
 		values: {
