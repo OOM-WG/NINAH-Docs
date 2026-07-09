@@ -1,0 +1,11 @@
+:HL["/_next/static/chunks/1gtyrsfb2n0_l.css","style"]
+:HC["/",""]
+:HL["/_next/static/chunks/2gs3drdnc84hp.css","style"]
+:HL["/_next/static/media/char.3j33yg8ep58yr.webp","image"]
+:HL["/_next/static/media/teeth-god.3gdbm31s4cgqk.webp","image"]
+:HL["/_next/static/media/teeth-bad.3pta-rl7mrv-n.webp","image"]
+:HL["/_next/static/media/armpit-god.3k5nre8r3ztta.webp","image"]
+:HL["/_next/static/media/armpit-bad.41phz-5tlx39t.webp","image"]
+:HL["/_next/static/media/pic-god.37mhiw75crawz.webp","image"]
+:HL["/_next/static/media/pic-bad.2pobool0tcok2.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"characters/nervous","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"3OIwi0cdrVGZTwmUa2zTV"}

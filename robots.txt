@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: non-human.game.oom-wg.dev
+Sitemap: https://non-human.game.oom-wg.dev/sitemap.xml

@@ -1,0 +1,11 @@
+:HL["/_next/static/chunks/1gtyrsfb2n0_l.css","style"]
+:HC["/",""]
+:HL["/_next/static/chunks/2gs3drdnc84hp.css","style"]
+:HL["/_next/static/media/char.2pgexmlf_5h71.webp","image"]
+:HL["/_next/static/media/hands-god.3xr_1x810n9w2.webp","image"]
+:HL["/_next/static/media/hands-bad.3qr0b9j05d7o1.webp","image"]
+:HL["/_next/static/media/eye-god.3nqw-6plowg8z.webp","image"]
+:HL["/_next/static/media/eye-bad.0e70l4c7eyci6.webp","image"]
+:HL["/_next/static/media/armpit-god.30dxr7jry9j00.webp","image"]
+:HL["/_next/static/media/armpit-bad.0yii-xgt-xdxd.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"characters/couple","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"3OIwi0cdrVGZTwmUa2zTV"}

@@ -1,0 +1,11 @@
+:HL["/_next/static/chunks/1gtyrsfb2n0_l.css","style"]
+:HC["/",""]
+:HL["/_next/static/chunks/2gs3drdnc84hp.css","style"]
+:HL["/_next/static/media/char.3kezdp-i36pew.webp","image"]
+:HL["/_next/static/media/teeth-god.0-q7kc9u1_cza.webp","image"]
+:HL["/_next/static/media/teeth-bad.3zpmo23fwmemq.webp","image"]
+:HL["/_next/static/media/hands-god.0h_-0j1tvcaur.webp","image"]
+:HL["/_next/static/media/hands-bad.0c6plyo5ft-zc.webp","image"]
+:HL["/_next/static/media/eye-god.21acd5sou0wgg.webp","image"]
+:HL["/_next/static/media/eye-bad.2cuu4ngxdb-ck.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"characters/intruder","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"3OIwi0cdrVGZTwmUa2zTV"}
